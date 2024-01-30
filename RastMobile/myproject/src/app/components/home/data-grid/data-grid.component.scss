@@ -1,0 +1,123 @@
+::ng-deep .options {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: rgba(191, 191, 191, 0.15);
+}
+
+::ng-deep .caption {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+::ng-deep .option {
+  margin-top: 10px;
+}
+::ng-deep .dx-datagrid-headers .dx-datagrid-table .dx-row{
+  height: 50px;
+ }
+
+::ng-deep .dx-datagrid-rowsview .dx-row{
+  border-bottom: 2px solid #efefef
+  height: 50px;
+}
+
+::ng-deep .dx-datagrid-nowrap .dx-header-row > td > .dx-datagrid-text-content {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 13px;
+  color: black;
+  line-height: 19.5px;
+}
+
+::ng-deep .dx-widget{
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.data-grid{
+  height: 100%;
+  background: linear-gradient(to bottom, #EFF2FF 100%, #E8ECFF 0%);
+}
+.search-button{
+  border-radius: 0 45% 45% 0;
+}
+.filter{
+  border-radius: 50%;
+  margin-left: 5px;
+  background: white;
+  border-color: white;
+  color: #744BFC;
+}
+
+.add-new{
+    border-radius: 39px;
+  }
+
+::ng-deep .dx-datagrid .dx-row.dx-datagrid-rowsview .dx-row-alt.custom-row-style {
+  background-color: pink !important;
+}
+.button{
+  background: #744BFC;
+  border-color: #744BFC;
+  color: white;
+
+  .plus{
+    margin-right: 5px;
+  }
+
+
+}
+.head{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 5px;
+
+  .search-group{
+    display: flex;
+    margin-left: 10px;
+  }
+
+  .add-button{
+    padding-right: 10px;
+  }
+
+}
+
+.size{
+  padding-left: 10px;
+  color: #744BFC;
+  display: flex;
+  height: 30px;
+
+  .size-input{
+    width: 7%;
+    margin-left: 5px;
+  }
+}
+.footer{
+  padding-bottom: 20px;
+}
+.search{
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+::ng-deep .dx-datagrid > .dx-datagrid-headers{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+::ng-deep .dx-datagrid-borders .dx-datagrid-rowsview, .dx-datagrid-headers + .dx-datagrid-rowsview{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+::ng-deep .dx-pager .dx-pages {
+  float: left;
+}
+::ng-deep .dx-datagrid-borders > .dx-datagrid-pager
+{
+  display: flex;
+  justify-content: flex-end;
+  margin: 0px;
+}

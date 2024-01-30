@@ -1,0 +1,33 @@
+<div class="data-grid">
+ <div class="head">
+  <div class="search-group">
+    <input class="form-control search" [(ngModel)]="searchText">
+    <button class="btn btn-secondary button search-button" (click)="search()"><i class="fa fa-search"></i> </button>
+    <button class="btn btn-secondary  filter" (click)="search()"><i class="fa fa-filter"></i> </button>
+  </div>
+  <div class="add-button">
+    <button type="button" class="btn button add-new" (click)="openDialog()" ><i class="fa fa-plus plus"></i>Yeni Hesap Ekle</button>
+ </div>
+ </div>
+<dx-data-grid
+  id="gridContainer"
+  [dataSource]="newEmployees"
+  [showBorders]="true"
+  (onRowPrepared)="onRowPrepared($event)"
+>
+
+
+  <dxo-sorting mode="multiple"></dxo-sorting>
+  <dxi-column dataField="sosyalMedyaLinki" sortOrder="asc"></dxi-column>
+  <dxi-column dataField="sosyalMedyaAdı" sortOrder="asc"></dxi-column>
+  <dxi-column dataField="açıklama" sortOrder="asc"></dxi-column>
+
+  <dxo-paging [pageSize]="10"></dxo-paging>
+</dx-data-grid>
+  <div class="footer">
+  <div class="size">
+   <span class="mt-1">Show:</span>
+    <input class="form-control size-input" [placeholder]="dataLength + ' rows'"  type="number"/>
+  </div>
+</div>
+</div>
