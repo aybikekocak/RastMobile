@@ -1,0 +1,26 @@
+<div class="modal-content">
+  <div class="modal-header">
+    <h5 class="modal-title">Yeni Link Ekle</h5>
+    <button type="button" class="close" aria-label="Close" (click)="closeModal()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <div class="form-group">
+      <label for="input1">Sosyal Medya Linki:</label>
+      <input type="text" class="form-control" id="input1" [(ngModel)]="input1">
+    </div>
+    <div class="form-group">
+      <label for="input2">Sosyal Medya Adı:</label>
+      <input type="text" class="form-control" id="input2" [(ngModel)]="input2">
+    </div>
+    <div class="form-group">
+      <label for="input3">Açıklama:</label>
+      <input type="text" class="form-control" id="input3" [(ngModel)]="input3">
+    </div>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" (click)="closeModal()">Kapat</button>
+    <button type="button" class="btn btn-primary" (click)="saveData()">Kaydet</button>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+[
+  {
+    "sosyalMedyaLinki": "https://facebook.com/example",
+    "sosyalMedyaAdı": "Facebook",
+    "açıklama": "Facebook profilimiz"
+  },
+  {
+    "sosyalMedyaLinki": "https://twitter.com/example",
+    "sosyalMedyaAdı": "Twitter",
+    "açıklama": "Twitter hesabımız"
+  },
+  {
+    "sosyalMedyaLinki": "https://linkedin.com/example",
+    "sosyalMedyaAdı": "LinkedIn",
+    "açıklama": "LinkedIn profilimiz"
+  }
+]
