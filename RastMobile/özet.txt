@@ -1,6 +1,0 @@
-Proje Özeti
-Bu projede, Figma tasarımını temel alarak bir Datagrid uygulaması geliştirdim. Frontend tarafında Angular kullanarak projeyi modüler hale getirdim ve responsive bir web sayfası oluşturdum. Ayrıca, veri gösterimi, ekleme ve filtreleme özelliklerini içeren bir Datagrid entegrasyonu gerçekleştirdim.
-
-Projede ilk olarak bir dummy veri oluşturdum daha sonra bunu okuyabilmek ve veri ekleyebilmek için servisler oluşturdum. Verileri localde tutabilmek için localStorage kullandım. Bootstrap kütüphanesini kullanarak tasarımı gerçekleştirdim.
-
-Filtreleme özelliği için ise filter() fonksiyonu ile bir geliştirme yaptım. 
